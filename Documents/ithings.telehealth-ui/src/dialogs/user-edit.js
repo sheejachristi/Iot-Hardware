@@ -173,7 +173,7 @@ class UserEdit extends mixinBehaviors([PaperDialogBehavior], PolymerElement) {
     }
 
       this.$.edituser.edittecuser(spname, email, name, phone, role);
-window.location.reload(true);
+location.reload(true);
   }
 
   _editedUser(event) {
