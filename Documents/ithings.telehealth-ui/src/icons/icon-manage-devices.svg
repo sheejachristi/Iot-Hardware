@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="Icon-Manage-Devices" viewBox="0 0 20 20">
+    <defs>
+        <style>
+            .cls-1{fill:#2f3042}
+        </style>
+    </defs>
+    <path id="Path_497" d="M10 20a10 10 0 1 1 10-10 10.014 10.014 0 0 1-10 10zm0-18.361A8.361 8.361 0 1 0 18.361 10 8.343 8.343 0 0 0 10 1.639z" class="cls-1" data-name="Path 497"/>
+    <g id="Group_550" data-name="Group 550" transform="translate(8.115 8.32)">
+        <path id="Rectangle_1176" d="M0 0h1.639v7.254H0z" class="cls-1" data-name="Rectangle 1176" transform="translate(.902 3.238)"/>
+        <circle id="Ellipse_237" cx="1.803" cy="1.803" r="1.803" class="cls-1" data-name="Ellipse 237"/>
+    </g>
+    <g id="Group_551" data-name="Group 551" transform="translate(3.197 2.787)">
+        <path id="Path_498" d="M20.918 16.884a3.349 3.349 0 0 0-5.984 0L13.5 16.1a4.974 4.974 0 0 1 8.852 0z" class="cls-1" data-name="Path 498" transform="translate(-11.164 -10.695)"/>
+        <path id="Path_499" d="M9.275 11.677L7.8 10.939A7.59 7.59 0 0 1 14.562 6.8a7.59 7.59 0 0 1 6.762 4.139l-1.475.738a5.935 5.935 0 0 0-10.574 0z" class="cls-1" data-name="Path 499" transform="translate(-7.8 -6.8)"/>
+    </g>
+</svg>

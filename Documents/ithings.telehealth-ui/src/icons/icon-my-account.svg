@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="Icon-My-Account" viewBox="0 0 20 20">
+    <defs>
+        <style>
+            .cls-1{fill:#2f3042}
+        </style>
+    </defs>
+    <path id="Path_372" d="M10 20a10 10 0 1 1 10-10 10.014 10.014 0 0 1-10 10zm0-18.361A8.361 8.361 0 1 0 18.361 10 8.343 8.343 0 0 0 10 1.639z" class="cls-1" data-name="Path 372"/>
+    <circle id="Ellipse_230" cx="3.648" cy="3.648" r="3.648" class="cls-1" data-name="Ellipse 230" transform="translate(6.434 2.705)"/>
+    <path id="Path_373" d="M16.338 26.3a6.227 6.227 0 0 0-5.738 4.016 7.7 7.7 0 0 0 11.434-.082 6.3 6.3 0 0 0-5.696-3.934z" class="cls-1" data-name="Path 373" transform="translate(-6.256 -15.521)"/>
+</svg>

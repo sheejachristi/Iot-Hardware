@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="Icon-Contact" viewBox="0 0 20 20">
+    <defs>
+        <style>
+            .cls-1{fill:#2f3042}
+        </style>
+    </defs>
+    <path id="Path_376" d="M10 20a10 10 0 1 1 10-10 10.014 10.014 0 0 1-10 10zm0-18.361A8.361 8.361 0 1 0 18.361 10 8.343 8.343 0 0 0 10 1.639z" class="cls-1" data-name="Path 376"/>
+    <path id="Path_377" d="M20.551 20.574H11.37A1.277 1.277 0 0 1 10.1 19.3v-5.53a1.277 1.277 0 0 1 1.27-1.27h9.18a1.277 1.277 0 0 1 1.27 1.27v5.492a1.286 1.286 0 0 1-1.269 1.312z" class="cls-1" data-name="Path 377" transform="translate(-5.961 -7.377)"/>
+    <path id="Path_378" d="M20.959 31.623l1.23 3.361 1.147-3.484H18.5" class="cls-1" data-name="Path 378" transform="translate(-10.918 -18.59)"/>
+</svg>
