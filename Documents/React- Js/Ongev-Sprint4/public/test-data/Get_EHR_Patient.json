@@ -1,0 +1,189 @@
+{
+	"patient": {
+		"entry": [
+			{
+				"fullUrl": "https://api.1up.health/fhir/dstu2/Patient/f8fedcd9e6e5",
+				"resource": {
+					"active": true,
+					"address": [
+						{
+							"city": "Verona",
+							"country": "US",
+							"line": [
+								"1979 Milky Way Dr."
+							],
+							"postalCode": "53593",
+							"state": "WI",
+							"use": "home"
+						},
+						{
+							"city": "MADISON",
+							"country": "US",
+							"line": [
+								"5301 Tokay Blvd"
+							],
+							"period": {
+								"end": "2014-08-04T00:00:00Z",
+								"start": "2011-08-04T00:00:00Z"
+							},
+							"postalCode": "53711",
+							"state": "WI",
+							"use": "temp"
+						}
+					],
+					"birthDate": "1985-08-01",
+					"careProvider": [
+						{
+							"display": "Physician Family Medicine",
+							"reference": "Practitioner/31903d3bb791"
+						}
+					],
+					"communication": [
+						{
+							"language": {
+								"coding": [
+									{
+										"code": "en",
+										"display": "English",
+										"system": "urn:oid:2.16.840.1.113883.6.99"
+									}
+								],
+								"text": "English"
+							},
+							"preferred": true
+						}
+					],
+					"deceasedBoolean": false,
+					"extension": [
+						{
+							"url": "http://hl7.org/fhir/StructureDefinition/us-core-race",
+							"valueCodeableConcept": {
+								"coding": [
+									{
+										"code": "2028-9",
+										"display": "Asian",
+										"system": "2.16.840.1.113883.5.104"
+									}
+								],
+								"text": "Asian"
+							}
+						},
+						{
+							"url": "http://hl7.org/fhir/StructureDefinition/us-core-ethnicity",
+							"valueCodeableConcept": {
+								"coding": [
+									{
+										"code": "2186-5",
+										"display": "Not Hispanic or Latino",
+										"system": "2.16.840.1.113883.5.50"
+									}
+								],
+								"text": "Not Hispanic or Latino"
+							}
+						},
+						{
+							"url": "http://hl7.org/fhir/StructureDefinition/us-core-birth-sex",
+							"valueCodeableConcept": {
+								"coding": [
+									{
+										"code": "M",
+										"display": "Male",
+										"system": "http://hl7.org/fhir/v3/AdministrativeGender"
+									}
+								],
+								"text": "Male"
+							}
+						}
+					],
+					"gender": "male",
+					"id": "f8fedcd9e6e5",
+					"identifier": [
+						{
+							"system": "urn:oid:1.2.840.114350.1.13.327.1.7.5.737384.0",
+							"use": "usual",
+							"value": "E3826"
+						},
+						{
+							"system": "urn:oid:1.2.3.4",
+							"use": "usual",
+							"value": "203579"
+						},
+						{
+							"system": "https://open-ic.epic.com/FHIR/api/FHIR/DSTU2",
+							"use": "usual",
+							"value": "Tbt3KuCY0B5PSrJvCu2j-PlK.aiHsu2xUjUM8bWpetXoB"
+						}
+					],
+					"maritalStatus": {
+						"coding": [
+							{
+								"code": "S",
+								"display": "Never Married",
+								"system": "http://hl7.org/fhir/ValueSet/marital-status"
+							}
+						],
+						"text": "Single"
+					},
+					"meta": {
+						"lastUpdated": "2020-06-10T19:53:36.217Z",
+						"versionId": "9000000000000"
+					},
+					"name": [
+						{
+							"family": [
+								"Argonaut"
+							],
+							"given": [
+								"Jason"
+							],
+							"text": "Jason Argonaut",
+							"use": "usual"
+						}
+					],
+					"resourceType": "Patient",
+					"telecom": [
+						{
+							"system": "phone",
+							"use": "home",
+							"value": "608-271-9000"
+						},
+						{
+							"system": "phone",
+							"use": "work",
+							"value": "608-771-9000"
+						},
+						{
+							"system": "phone",
+							"use": "mobile",
+							"value": "608-771-9000"
+						},
+						{
+							"system": "fax",
+							"use": "home",
+							"value": "608-771-9000"
+						},
+						{
+							"period": {
+								"end": "2014-08-04T00:00:00Z",
+								"start": "2011-08-04T00:00:00Z"
+							},
+							"system": "phone",
+							"use": "temp",
+							"value": "608-771-9000"
+						},
+						{
+							"system": "email",
+							"value": "open@epic.com"
+						}
+					]
+				},
+				"search": {
+					"mode": "match"
+				}
+			}
+		],
+		"resourceType": "Bundle",
+		"total": 1,
+		"type": "searchset"
+	}
+}

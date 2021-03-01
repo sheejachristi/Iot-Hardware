@@ -1,0 +1,852 @@
+{
+  "resourceType": "Bundle",
+  "type": "searchset",
+  "total": 134,
+  "entry": [
+    {
+      "fullUrl": "https://api.1up.health/fhir/dstu2/AllergyIntolerance/f8fedcd9e6e597f922acfb817fa71844de0c894d88bfd7c1",
+      "search": {
+        "mode": "match"
+      },
+      "resource": {
+        "identifier": [
+          {
+            "system": "https:open-ic.epic.com",
+            "value": "TPcWiBG2h2E114Vh0sRT8fQB"
+          }
+        ],
+        "recorder": {
+          "reference": "Practitioner/99c389c2674d",
+          "display": "MOORE, NICK"
+        },
+        "reaction": [
+          {
+            "manifestation": [
+              {
+                "text": "Itching"
+              }
+            ],
+            "certainty": "confirmed",
+            "onset": "2010-05-02T00:00:00Z"
+          }
+        ],
+        "recordedDate": "2015-11-07T20:55:10.000Z",
+        "substance": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/ndfrt",
+              "code": "N0000007624",
+              "display": "SHELLFISH-DERIVED PRODUCTS"
+            }
+          ],
+          "text": "SHELLFISH-DERIVED PRODUCTS"
+        },
+        "criticality": "CRITL",
+        "onset": "2010-05-02T00:00:00Z",
+        "meta": {
+          "lastUpdated": "2020-06-10T19:53:36.213Z",
+          "versionId": "9000000000000"
+        },
+        "patient": {
+          "reference": "Patient/f8fedcd9e6e5"
+        },
+        "id": "f8fedcd9e6e597f922acfb817fa71844de0c894d88bfd7c1",
+        "resourceType": "AllergyIntolerance",
+        "status": "confirmed"
+      }
+    },
+    {
+      "fullUrl": "https://api.1up.health/fhir/dstu2/AllergyIntolerance/f8fedcd9e6e5c8e896b10440cf41c391874d400c0402e8bf",
+      "search": {
+        "mode": "match"
+      },
+      "resource": {
+        "identifier": [
+          {
+            "system": "https:open-ic.epic.com",
+            "value": "TKebKfLXzu6Sp.LY-IpvpmQB"
+          }
+        ],
+        "recorder": {
+          "reference": "Practitioner/99c389c2674d",
+          "display": "MOORE, NICK"
+        },
+        "reaction": [
+          {
+            "manifestation": [
+              {
+                "text": "Anaphylaxis"
+              }
+            ],
+            "certainty": "confirmed",
+            "onset": "2014-03-07T00:00:00Z"
+          }
+        ],
+        "recordedDate": "2015-11-07T20:56:34.000Z",
+        "substance": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "892484",
+              "display": "STRAWBERRY"
+            },
+            {
+              "system": "http://fdasis.nlm.nih.gov",
+              "code": "4J2TY8Y81V",
+              "display": "STRAWBERRY"
+            }
+          ],
+          "text": "STRAWBERRY"
+        },
+        "criticality": "CRITH",
+        "onset": "2014-03-07T00:00:00Z",
+        "meta": {
+          "lastUpdated": "2020-06-10T19:53:36.063Z",
+          "versionId": "9000000000000"
+        },
+        "patient": {
+          "reference": "Patient/f8fedcd9e6e5"
+        },
+        "id": "f8fedcd9e6e5c8e896b10440cf41c391874d400c0402e8bf",
+        "resourceType": "AllergyIntolerance",
+        "status": "confirmed"
+      }
+    },
+    {
+      "fullUrl": "https://api.1up.health/fhir/dstu2/AllergyIntolerance/f8fedcd9e6e5dc5963ef895e051d5e3df838e348eadce761",
+      "search": {
+        "mode": "match"
+      },
+      "resource": {
+        "identifier": [
+          {
+            "system": "https:open-ic.epic.com",
+            "value": "TBwnNbrAqC0Qw5Ha7AFT-2AB"
+          }
+        ],
+        "note": {
+          "text": "Severity low enough to be prescribed if needed."
+        },
+        "recorder": {
+          "reference": "Practitioner/99c389c2674d",
+          "display": "MOORE, NICK"
+        },
+        "reaction": [
+          {
+            "note": {
+              "text": "Severity low enough to be prescribed if needed."
+            },
+            "manifestation": [
+              {
+                "text": "Hives"
+              }
+            ],
+            "certainty": "confirmed",
+            "onset": "2012-11-07T00:00:00Z"
+          }
+        ],
+        "recordedDate": "2015-08-24T23:11:36.000Z",
+        "substance": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "7980",
+              "display": "PENICILLIN G"
+            },
+            {
+              "system": "http://fdasis.nlm.nih.gov",
+              "code": "Q42T66VG0C",
+              "display": "PENICILLIN G"
+            }
+          ],
+          "text": "PENICILLIN G"
+        },
+        "criticality": "CRITL",
+        "onset": "2012-11-07T00:00:00Z",
+        "meta": {
+          "lastUpdated": "2020-06-10T19:53:36.198Z",
+          "versionId": "9000000000000"
+        },
+        "patient": {
+          "reference": "Patient/f8fedcd9e6e5"
+        },
+        "id": "f8fedcd9e6e5dc5963ef895e051d5e3df838e348eadce761",
+        "resourceType": "AllergyIntolerance",
+        "status": "confirmed"
+      }
+    },
+    {
+      "fullUrl": "https://api.1up.health/fhir/dstu2/CarePlan/f8fedcd9e6e509c272abc241a4b3dab31f1a81ea94d46abb",
+      "search": {
+        "mode": "match"
+      },
+      "resource": {
+        "identifier": [
+          {
+            "system": "https:open-ic.epic.com",
+            "value": "Tbt3KuCY0B5PSrJvCu2j-PlK.aiHsu2xUjUM8bWpetXoB"
+          }
+        ],
+        "addresses": [
+          {
+            "reference": "Condition/f8fedcd9e6e51d9bd5d973334b9da14c159a540cc6562dd5",
+            "display": "Agoraphobia"
+          },
+          {
+            "reference": "Condition/f8fedcd9e6e51b76b16b7a84dac69e1fdffd7637b77f3ae8",
+            "display": "Chronic cough"
+          },
+          {
+            "reference": "Condition/f8fedcd9e6e541eaedde7488e6b6d0ddf8d2b8d65f93896a",
+            "display": "Asthma"
+          },
+          {
+            "reference": "Condition/f8fedcd9e6e5376c64785b303a5aedf76aebba93d775384f",
+            "display": "Hemoglobin A1c above reference range"
+          },
+          {
+            "reference": "Condition/f8fedcd9e6e5c5de892a33dd2aa558f8956457ea99c8ead9",
+            "display": "TB (pulmonary tuberculosis)"
+          },
+          {
+            "reference": "Condition/f8fedcd9e6e55d1cea835eee38cfc585cf00f72211fa99a5",
+            "display": "Zika virus disease"
+          }
+        ],
+        "goal": [
+          {
+            "reference": "Goal/f8fedcd9e6e5e7e09b2dbd78ee404b4fff4bf23e28914f1c",
+            "display": "Hemoglobin A1c < 7.0"
+          },
+          {
+            "reference": "Goal/f8fedcd9e6e55fbfc6a98758e0b2e202cb817b4af2812ade",
+            "display": "Reduce the need for your rescue inhaler to less than once each month"
+          }
+        ],
+        "activity": [
+          {
+            "detail": {
+              "code": {
+                "text": "CT abdomen with contrast"
+              },
+              "prohibited": false,
+              "category": {
+                "coding": [
+                  {
+                    "system": "http://hl7.org/fhir/care-plan-activity-category",
+                    "code": "other",
+                    "display": "Other"
+                  }
+                ],
+                "text": "other"
+              }
+            }
+          },
+          {
+            "detail": {
+              "code": {
+                "text": "CBC AND DIFFERENTIAL"
+              },
+              "prohibited": false,
+              "category": {
+                "coding": [
+                  {
+                    "system": "http://hl7.org/fhir/care-plan-activity-category",
+                    "code": "procedure",
+                    "display": "Procedure"
+                  }
+                ],
+                "text": "procedure"
+              }
+            }
+          },
+          {
+            "detail": {
+              "code": {
+                "text": "CBC WITH AUTO DIFFERENTIAL"
+              },
+              "prohibited": false,
+              "category": {
+                "coding": [
+                  {
+                    "system": "http://hl7.org/fhir/care-plan-activity-category",
+                    "code": "procedure",
+                    "display": "Procedure"
+                  }
+                ],
+                "text": "procedure"
+              }
+            }
+          },
+          {
+            "detail": {
+              "code": {
+                "text": "TYPE AND SCREEN"
+              },
+              "prohibited": false,
+              "category": {
+                "coding": [
+                  {
+                    "system": "http://hl7.org/fhir/care-plan-activity-category",
+                    "code": "procedure",
+                    "display": "Procedure"
+                  }
+                ],
+                "text": "procedure"
+              }
+            }
+          },
+          {
+            "detail": {
+              "code": {
+                "text": "COMPREHENSIVE METABOLIC PANEL"
+              },
+              "prohibited": false,
+              "category": {
+                "coding": [
+                  {
+                    "system": "http://hl7.org/fhir/care-plan-activity-category",
+                    "code": "procedure",
+                    "display": "Procedure"
+                  }
+                ],
+                "text": "procedure"
+              }
+            }
+          },
+          {
+            "detail": {
+              "code": {
+                "text": "CBC"
+              },
+              "prohibited": false,
+              "category": {
+                "coding": [
+                  {
+                    "system": "http://hl7.org/fhir/care-plan-activity-category",
+                    "code": "procedure",
+                    "display": "Procedure"
+                  }
+                ],
+                "text": "procedure"
+              }
+            }
+          },
+          {
+            "detail": {
+              "code": {
+                "text": "HEMOGLOBIN A1C"
+              },
+              "prohibited": false,
+              "category": {
+                "coding": [
+                  {
+                    "system": "http://hl7.org/fhir/care-plan-activity-category",
+                    "code": "procedure",
+                    "display": "Procedure"
+                  }
+                ],
+                "text": "procedure"
+              }
+            }
+          },
+          {
+            "detail": {
+              "code": {
+                "text": "LUMBAR PUNCTURE"
+              },
+              "prohibited": false,
+              "category": {
+                "coding": [
+                  {
+                    "system": "http://hl7.org/fhir/care-plan-activity-category",
+                    "code": "procedure",
+                    "display": "Procedure"
+                  }
+                ],
+                "text": "procedure"
+              }
+            }
+          }
+        ],
+        "subject": {
+          "reference": "Patient/f8fedcd9e6e5"
+        },
+        "meta": {
+          "lastUpdated": "2020-06-10T19:53:35.212Z",
+          "versionId": "9000000000000"
+        },
+        "id": "f8fedcd9e6e509c272abc241a4b3dab31f1a81ea94d46abb",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "38717003",
+                "display": "Longitudinal"
+              }
+            ],
+            "text": "Longitudinal"
+          }
+        ],
+        "resourceType": "CarePlan",
+        "status": "active"
+      }
+    },
+    {
+      "fullUrl": "https://api.1up.health/fhir/dstu2/Condition/f8fedcd9e6e51b76b16b7a84dac69e1fdffd7637b77f3ae8",
+      "search": {
+        "mode": "match"
+      },
+      "resource": {
+        "severity": {
+          "text": "Medium"
+        },
+        "identifier": [
+          {
+            "system": "https:open-ic.epic.com",
+            "value": "ToXGIl7BNrvoF6BVybVSoawB"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "urn:oid:2.16.840.1.113883.6.90",
+              "code": "R05",
+              "display": "Chronic cough"
+            },
+            {
+              "system": "http://snomed.info/sct",
+              "code": "68154008",
+              "display": "Chronic cough (finding)"
+            }
+          ],
+          "text": "Chronic cough"
+        },
+        "verificationStatus": "confirmed",
+        "clinicalStatus": "active",
+        "onsetDateTime": "2015-08-24",
+        "asserter": {
+          "reference": "Practitioner/99c389c2674d",
+          "display": "MOORE, NICK"
+        },
+        "dateRecorded": "2015-08-24",
+        "meta": {
+          "lastUpdated": "2020-06-10T19:53:35.074Z",
+          "versionId": "9000000000000"
+        },
+        "patient": {
+          "reference": "Patient/f8fedcd9e6e5"
+        },
+        "id": "f8fedcd9e6e51b76b16b7a84dac69e1fdffd7637b77f3ae8",
+        "category": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "29308-4",
+              "display": "Diagnosis"
+            },
+            {
+              "system": "http://snomed.info/sct",
+              "code": "439401001",
+              "display": "Diagnosis"
+            },
+            {
+              "system": "http://hl7.org/fhir/condition-category",
+              "code": "diagnosis",
+              "display": "Diagnosis"
+            },
+            {
+              "system": "http://argonautwiki.hl7.org/extension-codes",
+              "code": "problem",
+              "display": "Problem"
+            }
+          ],
+          "text": "Diagnosis"
+        },
+        "resourceType": "Condition"
+      }
+    },
+    {
+      "fullUrl": "https://api.1up.health/fhir/dstu2/Condition/f8fedcd9e6e51d9bd5d973334b9da14c159a540cc6562dd5",
+      "search": {
+        "mode": "match"
+      },
+      "resource": {
+        "severity": {
+          "text": "Medium"
+        },
+        "identifier": [
+          {
+            "system": "https:open-ic.epic.com",
+            "value": "T1kK.xqvU20cEJe860G4aKgB"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "urn:oid:2.16.840.1.113883.6.90",
+              "code": "F40.00",
+              "display": "Agoraphobia"
+            },
+            {
+              "system": "http://snomed.info/sct",
+              "code": "70691001",
+              "display": "Agoraphobia (disorder)"
+            }
+          ],
+          "text": "Agoraphobia"
+        },
+        "verificationStatus": "confirmed",
+        "clinicalStatus": "active",
+        "onsetDateTime": "2015-08-24",
+        "asserter": {
+          "reference": "Practitioner/99c389c2674d",
+          "display": "MOORE, NICK"
+        },
+        "dateRecorded": "2015-08-24",
+        "meta": {
+          "lastUpdated": "2020-06-10T19:53:35.200Z",
+          "versionId": "9000000000000"
+        },
+        "patient": {
+          "reference": "Patient/f8fedcd9e6e5"
+        },
+        "id": "f8fedcd9e6e51d9bd5d973334b9da14c159a540cc6562dd5",
+        "category": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "29308-4",
+              "display": "Diagnosis"
+            },
+            {
+              "system": "http://snomed.info/sct",
+              "code": "439401001",
+              "display": "Diagnosis"
+            },
+            {
+              "system": "http://hl7.org/fhir/condition-category",
+              "code": "diagnosis",
+              "display": "Diagnosis"
+            },
+            {
+              "system": "http://argonautwiki.hl7.org/extension-codes",
+              "code": "problem",
+              "display": "Problem"
+            }
+          ],
+          "text": "Diagnosis"
+        },
+        "resourceType": "Condition"
+      }
+    },
+    {
+      "fullUrl": "https://api.1up.health/fhir/dstu2/Condition/f8fedcd9e6e5376c64785b303a5aedf76aebba93d775384f",
+      "search": {
+        "mode": "match"
+      },
+      "resource": {
+        "identifier": [
+          {
+            "system": "https:open-ic.epic.com",
+            "value": "TOVSAAQTrMr9e45nCzc8S5wB"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "urn:oid:2.16.840.1.113883.6.90",
+              "code": "R79.89",
+              "display": "Hemoglobin A1c above reference range"
+            },
+            {
+              "system": "http://snomed.info/sct",
+              "code": "444751005",
+              "display": "Hemoglobin A1c above reference range (finding)"
+            }
+          ],
+          "text": "Hemoglobin A1c above reference range"
+        },
+        "verificationStatus": "confirmed",
+        "clinicalStatus": "active",
+        "onsetDateTime": "2016-02-11",
+        "asserter": {
+          "reference": "Practitioner/99c389c2674d",
+          "display": "MOORE, NICK"
+        },
+        "dateRecorded": "2016-02-11",
+        "meta": {
+          "lastUpdated": "2020-06-10T19:53:35.205Z",
+          "versionId": "9000000000000"
+        },
+        "patient": {
+          "reference": "Patient/f8fedcd9e6e5"
+        },
+        "id": "f8fedcd9e6e5376c64785b303a5aedf76aebba93d775384f",
+        "category": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "29308-4",
+              "display": "Diagnosis"
+            },
+            {
+              "system": "http://snomed.info/sct",
+              "code": "439401001",
+              "display": "Diagnosis"
+            },
+            {
+              "system": "http://hl7.org/fhir/condition-category",
+              "code": "diagnosis",
+              "display": "Diagnosis"
+            },
+            {
+              "system": "http://argonautwiki.hl7.org/extension-codes",
+              "code": "problem",
+              "display": "Problem"
+            }
+          ],
+          "text": "Diagnosis"
+        },
+        "resourceType": "Condition"
+      }
+    },
+    {
+      "fullUrl": "https://api.1up.health/fhir/dstu2/Condition/f8fedcd9e6e541eaedde7488e6b6d0ddf8d2b8d65f93896a",
+      "search": {
+        "mode": "match"
+      },
+      "resource": {
+        "severity": {
+          "text": "Low"
+        },
+        "identifier": [
+          {
+            "system": "https:open-ic.epic.com",
+            "value": "T14QqO8NyASby4jGtzuSA6gB"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "urn:oid:2.16.840.1.113883.6.90",
+              "code": "J45.909",
+              "display": "Asthma"
+            },
+            {
+              "system": "http://snomed.info/sct",
+              "code": "195967001",
+              "display": "Asthma (disorder)"
+            }
+          ],
+          "text": "Asthma"
+        },
+        "verificationStatus": "confirmed",
+        "clinicalStatus": "active",
+        "onsetDateTime": "2015-08-24",
+        "asserter": {
+          "reference": "Practitioner/99c389c2674d",
+          "display": "MOORE, NICK"
+        },
+        "dateRecorded": "2015-08-24",
+        "meta": {
+          "lastUpdated": "2020-06-10T19:53:35.200Z",
+          "versionId": "9000000000000"
+        },
+        "patient": {
+          "reference": "Patient/f8fedcd9e6e5"
+        },
+        "id": "f8fedcd9e6e541eaedde7488e6b6d0ddf8d2b8d65f93896a",
+        "category": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "29308-4",
+              "display": "Diagnosis"
+            },
+            {
+              "system": "http://snomed.info/sct",
+              "code": "439401001",
+              "display": "Diagnosis"
+            },
+            {
+              "system": "http://hl7.org/fhir/condition-category",
+              "code": "diagnosis",
+              "display": "Diagnosis"
+            },
+            {
+              "system": "http://argonautwiki.hl7.org/extension-codes",
+              "code": "problem",
+              "display": "Problem"
+            },
+            {
+              "system": "http://loinc.org",
+              "code": "75310-3",
+              "display": "Health concerns"
+            },
+            {
+              "system": "http://argonautwiki.hl7.org/extension-codes",
+              "code": "health-concern",
+              "display": "Health Concern"
+            }
+          ],
+          "text": "Diagnosis - Health Concern"
+        },
+        "resourceType": "Condition"
+      }
+    },
+    {
+      "fullUrl": "https://api.1up.health/fhir/dstu2/Condition/f8fedcd9e6e55d1cea835eee38cfc585cf00f72211fa99a5",
+      "search": {
+        "mode": "match"
+      },
+      "resource": {
+        "identifier": [
+          {
+            "system": "https:open-ic.epic.com",
+            "value": "T-HzNQh62IyOLOuPFOaTtDgB"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "urn:oid:2.16.840.1.113883.6.90",
+              "code": "A92.8",
+              "display": "Zika virus disease"
+            },
+            {
+              "system": "http://snomed.info/sct",
+              "code": "3928002",
+              "display": "Zika virus disease (disorder)"
+            }
+          ],
+          "text": "Zika virus disease"
+        },
+        "verificationStatus": "confirmed",
+        "clinicalStatus": "active",
+        "onsetDateTime": "2016-04-23",
+        "asserter": {
+          "reference": "Practitioner/99c389c2674d",
+          "display": "MOORE, NICK"
+        },
+        "dateRecorded": "2016-04-23",
+        "meta": {
+          "lastUpdated": "2020-06-10T19:53:35.217Z",
+          "versionId": "9000000000000"
+        },
+        "patient": {
+          "reference": "Patient/f8fedcd9e6e5"
+        },
+        "id": "f8fedcd9e6e55d1cea835eee38cfc585cf00f72211fa99a5",
+        "category": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "29308-4",
+              "display": "Diagnosis"
+            },
+            {
+              "system": "http://snomed.info/sct",
+              "code": "439401001",
+              "display": "Diagnosis"
+            },
+            {
+              "system": "http://hl7.org/fhir/condition-category",
+              "code": "diagnosis",
+              "display": "Diagnosis"
+            },
+            {
+              "system": "http://argonautwiki.hl7.org/extension-codes",
+              "code": "problem",
+              "display": "Problem"
+            }
+          ],
+          "text": "Diagnosis"
+        },
+        "resourceType": "Condition"
+      }
+    },
+    {
+      "fullUrl": "https://api.1up.health/fhir/dstu2/Condition/f8fedcd9e6e5c5de892a33dd2aa558f8956457ea99c8ead9",
+      "search": {
+        "mode": "match"
+      },
+      "resource": {
+        "identifier": [
+          {
+            "system": "https:open-ic.epic.com",
+            "value": "TajPohVuPYfDdU-wGcm.KMgB"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "urn:oid:2.16.840.1.113883.6.90",
+              "code": "A15.0",
+              "display": "TB (pulmonary tuberculosis)"
+            },
+            {
+              "system": "http://snomed.info/sct",
+              "code": "154283005",
+              "display": "Pulmonary tuberculosis (disorder)"
+            }
+          ],
+          "text": "TB (pulmonary tuberculosis)"
+        },
+        "verificationStatus": "confirmed",
+        "clinicalStatus": "active",
+        "onsetDateTime": "2016-04-23",
+        "asserter": {
+          "reference": "Practitioner/99c389c2674d",
+          "display": "MOORE, NICK"
+        },
+        "dateRecorded": "2016-04-23",
+        "meta": {
+          "lastUpdated": "2020-06-10T19:53:35.087Z",
+          "versionId": "9000000000000"
+        },
+        "patient": {
+          "reference": "Patient/f8fedcd9e6e5"
+        },
+        "id": "f8fedcd9e6e5c5de892a33dd2aa558f8956457ea99c8ead9",
+        "category": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "29308-4",
+              "display": "Diagnosis"
+            },
+            {
+              "system": "http://snomed.info/sct",
+              "code": "439401001",
+              "display": "Diagnosis"
+            },
+            {
+              "system": "http://hl7.org/fhir/condition-category",
+              "code": "diagnosis",
+              "display": "Diagnosis"
+            },
+            {
+              "system": "http://argonautwiki.hl7.org/extension-codes",
+              "code": "problem",
+              "display": "Problem"
+            }
+          ],
+          "text": "Diagnosis"
+        },
+        "resourceType": "Condition"
+      }
+    }
+  ],
+  "link": [
+    {
+      "relation": "self",
+      "url": "https://api.1up.health/fhir/dstu2/Patient/f8fedcd9e6e5/$everything"
+    },
+    {
+      "relation": "next",
+      "url": "https://api.1up.health/fhir/dstu2/Patient/f8fedcd9e6e5/$everything?_skip=10"
+    }
+  ]
+}
